@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+ .main-container{
+    display: flex;
+     /* height: 100vh; */
+     justify-content: center;
+    width: 100vw; 
+    margin: 0px auto;
+   
+} 
+.top{
+    
+    text-align: center;
+    color: red;
+    font-size: 20px;
+    background-color: aqua;
+}
+.container{
+    width: 700px;
+    margin:  0px auto;
+}
+.top{
+    height: 200px;
+}
+.icon{
+    height: 50px;
+}
+.news-feed{
+    background-color: black;
+    height: 200px;
+    border-radius: 20px;
+    padding: 20px;
+}
+.news-feed h2 {
+   align-content: center;
+   text-align: center;
+}
+
+.head {
+    /* margin-top: 20px; */
+background-color: white;
+padding: 10px;
+
+}
+.news{
+    display: flex;
+    /* margin-bottom: 20px; */
+}
+.news a{
+    text-decoration: none;
+    color: black;
+}
+.news span{
+    border-radius: 5px;
+    padding: 10px 10px;
+    align-items: center;
+    margin:40px auto 0px auto;
+    background-color: yellow;
+}
+.updated{
+    text-align: center;
+    line-height: 3;
+    height: 300px;
+}
+.decorate{
+    color: white;
+    font-size: 40px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+/* .update h2{
+    margin: 20px 20px;
+} */
+.news-heading{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border-radius: 10px;
+    /* margin-bottom: 20px; */
+    
+    
+}
+ .span1{
+background-color: white;
+color: black;
+/* border-radius: 5px; */
+margin: 0px 5px;
+}
+.span2{
+    background-color: yellow;
+    color: black;
+    border-radius: 5px;
+    line-height: .90;
+}
+
+.saved-news .data{
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: aquamarine;
+}
+.new-news .data{
+    
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: aquamarine;
+
+}
+.topics span{
+    background-color: yellow;
+    border-radius: 5px;
+    margin: 8px;
+
+}
+.topics p{
+    background-color:darkgoldenrod;
+    display: block;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+    margin: 8px;
+}
+.topics span:hover{
+    cursor: pointer;
+}
+.saved-news,.new-news{
+    margin-bottom: 120px;
+}
+.heading-container{
+    background-color: black;
+    border-radius: 10px;
+}
+.news-detail{
+    display: flex;
+    justify-content: space-between;
+}
+i{
+    color: white;
+}
+button{
+    background-color: aquamarine;
+    /* border: none; */
+}
+i:hover{
+    cursor: pointer;
+}
+.fa-solid{
+    color: red;
+}
+.selected{
+    background-color: lightblue;
+}
